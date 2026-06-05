@@ -1,6 +1,5 @@
 
 import { AiFillLinkedin, AiOutlineGithub } from "react-icons/ai";
-import { RiInstagramFill } from "react-icons/ri";
 import Typewriter from "typewriter-effect";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import {
@@ -47,8 +46,9 @@ const Banner = () => {
                     loop: true,
                     delay: 45,
                     strings: [
-                      "A Data Scientist",
-                      "A Data Analyst",
+                      "An AI/ML Engineer",
+                      "An MLOps Engineer",
+                      "A GenAI Engineer",
                       "A Problem Solver",
                     ],
                   }}
@@ -57,22 +57,18 @@ const Banner = () => {
             </h3>
           </Proffesion>
           <Paragraph>
-            <b>Aspiring Data Scientist</b> with over 2 years of industry
-            experience in data analytics, machine learning and software
-            development. Committed to continuous learning and leveraging data
-            science to solve real world problems.
+            <b>AI/ML & MLOps Engineer</b> with 4+ years of experience building
+            scalable LLM pipelines, RAG systems, and Agentic AI solutions in
+            production across diverse industries.
           </Paragraph>
           <SocialSec>
             {/* <AnkerTag href="#">
               <FaFacebookF />
             </AnkerTag> */}
-            <AnkerTag href="https://www.instagram.com/atharvahatekar.ai/profilecard/?igsh=MzQ2OGxpeGFuc3p3https://github.com/atharvahatekar">
-              <RiInstagramFill />
-            </AnkerTag>
-            <AnkerTag href="https://www.linkedin.com/in/atharvahatekar/">
+            <AnkerTag href="https://www.linkedin.com/in/sailokesh-datascience-aiml/" target="_blank" rel="noopener noreferrer">
               <AiFillLinkedin />
             </AnkerTag>
-            <AnkerTag href="https://github.com/atharvahatekar">
+            <AnkerTag href="https://github.com/devathisailokesh" target="_blank" rel="noopener noreferrer">
               <AiOutlineGithub />
             </AnkerTag>
             {/* <AnkerTag href="#">
@@ -84,7 +80,7 @@ const Banner = () => {
             <FButton
               target="_blank"
               rel="noopener noreferrer"
-              href={`${process.env.PUBLIC_URL}/Atharva-Resume.pdf`}
+              href={`${process.env.PUBLIC_URL}/sai_lokesh_resume.pdf`}
             >
               Resume
             </FButton>
@@ -99,7 +95,7 @@ const Banner = () => {
             ""
           ) : (
             <DotLottieReact
-              src="https://lottie.host/140bd3ab-b51d-4fe3-b360-bde5a76bcf46/uaZYgKeLcA.lottie"
+              src="https://assets-v2.lottiefiles.com/a/431279d2-118a-11ee-afa8-f7fbc4c05a63/bsM1mDTFOD.lottie"
               loop
               autoplay
               style={{ width: "unset", height: "unset" }}

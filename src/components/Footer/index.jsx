@@ -5,7 +5,7 @@ const Footer = () => {
     <FooterContainer>
       <ChildContainer>
         <Para>
-        © 2025 All rights reserved by Atharva Hatekar
+        © 2026 All rights reserved by Sai Lokesh Devathi
         </Para>
       </ChildContainer>
     </FooterContainer>

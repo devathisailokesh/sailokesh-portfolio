@@ -1,8 +1,5 @@
 import React from "react";
-import ProfilePic from "assets/images/profile-pic.jpeg";
 import {
-  AboutDiv,
-  Column,
   AboutInfo,
   AboutInfoP,
 } from "styles/About";
@@ -11,31 +8,22 @@ import { Container, H1Skills } from "styles/index";
 
 const About = () => {
   return (
-    <Container>
-      <AboutDiv id="about">
-        <Column>
-          <div className="about__me">
-            <div className="about__me-image">
-              <img src={ProfilePic} alt="me" />
-            </div>
-          </div>
-        </Column>
-        <Column>
-          <H1Skills>About Me</H1Skills>
-          <AboutInfo>
-            <AboutInfoP>
-            I am Atharva Hatekar, currently pursuing a Master’s in Artificial Intelligence at Brandenburgische Technische Universität, 
-            Germany. I hold a Bachelor’s degree in Computer Science and Engineering from Lovely Professional University, India.
-            Professionally, I am working as a Data Science Intern at Metso, Frankfurt, Germany, and have previously worked as a Data Analyst 
-            and Software Developer at Dreamwarez, India.
-            </AboutInfoP>
-            <AboutInfoP>
-            Beyond my professional endeavors, I am a sports enthusiast, proudly holding gold medals in American Football and Rugby 
-            at national championships. I also have a deep passion for music, and I enjoy singing as well as playing the guitar and drums.
-            </AboutInfoP>
-          </AboutInfo>
-        </Column>
-      </AboutDiv>
+    <Container id="about">
+      <div style={{ maxWidth: "800px", margin: "0 auto", padding: "60px 20px" }}>
+        <H1Skills>About Me</H1Skills>
+        <AboutInfo>
+          <AboutInfoP>
+          I am Sai Lokesh Devathi, an AI/ML and MLOps Engineer currently working at Chubb in Bengaluru, India.
+          I hold an MBA in Data Science from KL University and a B.Tech in Computer Science & IT from REVA University.
+          With 4+ years of experience, I specialize in building and deploying production-grade LLM pipelines, RAG systems, and Agentic AI workflows.
+          </AboutInfoP>
+          <AboutInfoP>
+          I have hands-on expertise with LangChain, LangGraph, FastAPI, Docker, Kubernetes (AKS), Databricks, Azure ML, and Snowflake.
+          My work spans the full ML lifecycle — from building and deploying models to monitoring performance, scaling infrastructure,
+          and ensuring reliability in production environments, delivering scalable AI solutions that make a real-world impact.
+          </AboutInfoP>
+        </AboutInfo>
+      </div>
     </Container>
   );
 };

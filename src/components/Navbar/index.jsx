@@ -11,7 +11,6 @@ import {
 import { animateScroll as scroll } from "react-scroll";
 import MenuIcon from "assets/svg/MenuIcon";
 import CloseIcon from "assets/svg/CloseIcon";
-import NameLogo from "assets/images/name-logo.png";
 import { menus } from "components/Navbar/data.js";
 import MobileViewNav from "components/Navbar/MobileViewNav";
 
@@ -43,14 +42,10 @@ function Navbar() {
 
   return (
     <NavBarDiv>
-      {screenType === "mobile" || screenType === "tab" ? (
-        <img src={NameLogo} alt="logo" />
-      ) : (
-        (<Logo onClick={() => scroll.scrollToTop()}>
-          <p>Atharva Hatekar</p>
-          <div></div>
-        </Logo>)
-      )}
+      <Logo onClick={() => scroll.scrollToTop()}>
+        <p>Sai Lokesh Devathi</p>
+        <div></div>
+      </Logo>
 
       {/* <NavItems>
         {menus.map((item) => (

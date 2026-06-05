@@ -12,42 +12,33 @@ import {
   RoleText,
   Circle,
 } from "styles/Experience";
-import Metso from "assets/images/metso.png"
-import Dreamwarez from "assets/images/dream-warez.jpg"
 import { Container, H1 } from "styles/index";
 
 const serviceData = [
   {
-    Role: "Data Science Intern",
-    location: "Metso, Frankfurt, Germany",
-    TimePeriod: "10/ 2024 - Present",
-    icon: Metso,
+    Role: "MLOps Engineer (AI / ML)",
+    location: "Chubb, Bengaluru, India",
+    TimePeriod: "04/ 2025 - Present",
+    icon: null,
     services: [
-      "Implemented time series forecasting for predictive maintenance, integrating solutions into a CI/CD pipeline.",
-      "Deployed a gRPC backend to retrieve real-time plant data from ACT software, which helps for outlier detection and advanced analysis.",
-      "Collaborated with the R&D team to develop rule-based anomaly detection, utilizing MLOps frameworks like MLflow for robust model deployment, monitoring, and performance optimization",
+      "Built and deployed ML models across SIT, UAT, and Production on Databricks with a config-driven approach, integrating MLflow experiment tracking to log metrics and artifacts across runs.",
+      "Developed and deployed FastAPI services for AI/ML using Docker and Kubernetes (AKS) with Kustomize-based manifests, Cosmos DB, DNS certificates, and NSGs for secure deployments.",
+      "Designed and productionized RAG pipelines using a config-driven architecture, enabling multi-source data ingestion, intelligent summarization, and seamless delivery into ADLS and Snowflake.",
+      "Built an LLM-powered Invoice Fraud Detection pipeline with multi-step prompting and structured outputs, improving accuracy and significantly reducing false positives.",
+      "Developed a Kafka service to publish real event payloads to Kafka topics, enabling end-to-end validation of the production pipeline.",
+      "Automated CI/CD pipelines for APIs and models, reducing manual effort and accelerating release cycles for critical applications.",
     ],
   },
   {
-    Role: "Data Analyst",
-    location: "Dreamwarez, Pune, India",
-    TimePeriod: "02/ 2022 - 01/ 2023",
-    icon: Dreamwarez,
+    Role: "Software Engineer (Intern & Full-time)",
+    location: "Evertz, Bengaluru, India",
+    TimePeriod: "10/ 2022 - 04/ 2025",
+    icon: null,
     services: [
-      "Designed BI dashboards to visualize trends and created measures for KPIs by using DAX, Enabled customers to make crucial decisions that significantly boosted their business performance.",
-      "Utilized Pandas, SQL to perform data cleaning and transformation, extracting actionable insights to support decision-making",
-      "Leveraged machine learning and exploratory data analysis on complex datasets for advanced data analytics.",
-    ],
-  },
-  {
-    Role: "Software Developer Intern",
-    location: "Dreamwarez, Pune, India",
-    icon: Dreamwarez,
-    TimePeriod: "06/ 2021 - 01/ 2022",
-    services: [
-      "Developed web applications, improving user experience by integrating responsive designs and streamlined functionality.",
-      "Collaborated within an agile development team to implement new features, debug issues, and optimize existing code, ensuring timely project delivery.",
-      "Conducted thorough validations on web forms, enhancing data accuracy and improving overall system reliability by identifying and resolving input discrepancies.",
+      "Implemented Machine Learning models for forecasting and recommendation systems using Python, SQL, and advanced statistical methods, improving decision-making accuracy.",
+      "Developed responsive, high-performance Angular UIs and integrated REST APIs for scalable, real-time application features.",
+      "Automated critical data and model workflows, reducing manual effort by 40% and improving deployment efficiency.",
+      "Developed Deep Learning solutions using TensorFlow/Keras (CNNs, RNNs) and implemented OpenCV-based computer vision pipelines. Experimented with LLMs for advanced predictive and generative applications.",
     ],
   },
 ];
@@ -63,13 +54,11 @@ const Experience = () => {
               <p className="quote">
                 <QuoteContent>
                   <Circle icon={service.icon}></Circle>
-
                   <RoleText>{service.location}</RoleText>
                 </QuoteContent>
                 <ServiceList>
                   <Location>{service.Role}</Location>
                   <TimePeriod>{service.TimePeriod}</TimePeriod>
-
                   {service.services.map((text, idx) => (
                     <ServiceListItem key={idx}>
                       •<ServiceText>{text}</ServiceText>

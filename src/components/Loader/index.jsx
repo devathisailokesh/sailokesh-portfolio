@@ -3,8 +3,8 @@ import { Load } from "styles/Loader";
 const Loader = () => {
   return (
     <Load>
-      <span>Atharva</span>
-      <span>Hatekar</span>
+      <span>Sai Lokesh</span>
+      <span>Devathi</span>
     </Load>
   );
 };

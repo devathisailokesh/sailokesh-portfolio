@@ -5,5 +5,5 @@ export const menus = [
   { id: 2, name: "Experience", css: "experience" },
   { id: 4, name: "Educations", css: "education" },
   { id: 4, name: "Projects", css: "project" },
-  { id: 3, name: "Publication", css: "publication" },
+  { id: 3, name: "Blog", css: "blog" },
 ];

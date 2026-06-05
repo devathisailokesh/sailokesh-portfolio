@@ -1,10 +1,7 @@
 import React from "react";
-import IMG1 from "../../assets/images/movierecommand.png";
-import IMG2 from "../../assets/images/customerChurn.png";
-import IMG3 from "../../assets/images/cricketanalytics.png";
-import IMG4 from "../../assets/images/nlpChatbot.png";
-import IMG5 from "../../assets/images/butterflyrecognition.png";
-import IMG6 from "../../assets/images/newsresearchertool.png";
+import FraudDetection from "../../assets/images/fraud-detection.png";
+import AgenticAI from "../../assets/images/agentic-ai.png";
+import RAGKnowledge from "../../assets/images/rag-knowledge.png";
 import {
   PortfolioSection,
   PortfolioContainer,
@@ -19,45 +16,24 @@ import { Container, H1 } from "styles/index";
 const data = [
   {
     id: 1,
-    image: IMG1,
-    project_name: "Movie Recommendation System",
-    title: "Build using content-based filtering and collaborative filtering",
-    github: "https://github.com/atharvahatekar/Movie-Recommendation-System",
+    image: RAGKnowledge,
+    project_name: "RAG-Driven Knowledge Retrieval System",
+    title: "LangChain, OpenAI, FAISS, Vector Database — Production-grade RAG pipeline with multi-source ingestion, intelligent summarization, and delivery into ADLS and Snowflake.",
+    github: "https://github.com/devathisailokesh/RAG-Driven-Knowledge-Retrieval-with-Generative-AI",
   },
   {
     id: 2,
-    image: IMG2,
-    project_name: "Customer Churn Prediction",
-    title: "Build using Pandas, Scikit-learn, and Streamlit",
-    github: "https://github.com/atharvahatekar/Customer-Churn-Prediction",
+    image: AgenticAI,
+    project_name: "Agentic AI Email Automation Pipeline",
+    title: "LangGraph, LangChain, LLMs, Streamlit, SMTP, Python — End-to-end multi-agent pipeline that processes Excel inputs and sends personalized emails via LLM workflows.",
+    github: "https://github.com/devathisailokesh/Agentic-AI-Email-Project/tree/dev",
   },
   {
     id: 3,
-    image: IMG3,
-    project_name: "Cricket Analytics Pro",
-    title: "Build using PowerBI, DAX, and Python",
-    github: "https://github.com/atharvahatekar/Cricket-Analytics-Pro",
-  },
-  {
-    id: 4,
-    image: IMG4,
-    project_name: "Food Delivery NLP Chatbot",
-    title: "Build using NLP and DialogFlow",
-    github: "https://github.com/atharvahatekar/Food-Delivery-NLP-Chatbot",
-  },
-  {
-    id: 5,
-    image: IMG5,
-    project_name: "Butterfly Recognition System",
-    title: "Build using CNN, Convolutional AutoEncoder",
-    github: "https://github.com/atharvahatekar/Butterfly-Recognition-and-Segmentation",
-  },
-  {
-    id: 6,
-    image: IMG6,
-    project_name: "Equity News Researcher Tool",
-    title: "Build using LangChain, LLM, FAISS, and Streamlit",
-    github: "https://github.com/atharvahatekar?tab=repositories",
+    image: FraudDetection,
+    project_name: "ML-Powered Credit Card Fraud Detection",
+    title: "Gradient Boosting, RandomizedSearchCV — 94.42% accuracy, 95.79% precision, 99.15% ROC-AUC with class imbalance handling and optimized hyperparameter tuning.",
+    github: "https://github.com/devathisailokesh/credit-card-fraud-detection",
   },
 ];
 
@@ -67,10 +43,10 @@ const Projects = () => {
       <PortfolioSection>
         <H1>Projects</H1>
         <PortfolioContainer>
-          {data.map(({ id, image, project_name, title, github, demo }) => (
+          {data.map(({ id, image, project_name, title, github }) => (
             <PortfolioItem key={id}>
               <PortfolioImage>
-                <img src={image} alt={title} />
+                <img src={image} alt={project_name} />
               </PortfolioImage>
               <ServiceBoxHeader style={{ textAlign: "center" }}>
                 {project_name}
@@ -84,7 +60,7 @@ const Projects = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Link
+                    GitHub
                   </A>
                 </button>
               </ProjectLinks>

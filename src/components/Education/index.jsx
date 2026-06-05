@@ -9,7 +9,6 @@ import {
   EducationWrapper,
   SecondEduWrapper,
   IconWrap,
-  AboutDegree,
   CollegeHeading,
 } from "styles/Education";
 import { Container, H1 } from "styles/index";
@@ -28,14 +27,14 @@ const [screenType, setScreenType] = useState("desktop");
           setScreenType("desktop");
         }
       };
-  
+
       handleResize();
       window.addEventListener("resize", handleResize);
       return () => {
         window.removeEventListener("resize", handleResize);
       };
     }, []);
-  
+
   return (
     <Container id="education">
       <MainContainer>
@@ -51,15 +50,9 @@ const [screenType, setScreenType] = useState("desktop");
                 </IconWrap>
               )}
               <div>
-                <CollegeHeading>
-                  Brandenburgische Technische Universität
-                </CollegeHeading>
-                <Degree>Masters in Artificial Intelligence</Degree>
-                <DateWrapper>April 2023 - Present</DateWrapper>
-                <AboutDegree>
-                  Key Subjects : Data Mining • Image Processing • Information
-                  Retrival{" "}
-                </AboutDegree>
+                <CollegeHeading>KL University</CollegeHeading>
+                <Degree>MBA in Data Science</Degree>
+                <DateWrapper>2023 – 2025</DateWrapper>
               </div>
             </Box>
             <BoxWrapper>
@@ -72,16 +65,9 @@ const [screenType, setScreenType] = useState("desktop");
                   </IconWrap>
                 )}
                 <div>
-                  <CollegeHeading>
-                    Lovely Professional University
-                  </CollegeHeading>
-                  <Degree>Bachelors in Computer Science and Engineering</Degree>
-                  <DateWrapper>June 2017 - June 2021</DateWrapper>
-                  <AboutDegree>
-                    {" "}
-                    Key Subjects : Programming • Data Structure and Algorithm •
-                    DBMS
-                  </AboutDegree>
+                  <CollegeHeading>REVA University</CollegeHeading>
+                  <Degree>B.Tech in Computer Science & Information Technology</Degree>
+                  <DateWrapper>2019 – 2023</DateWrapper>
                 </div>
               </SecondEduWrapper>
             </BoxWrapper>
