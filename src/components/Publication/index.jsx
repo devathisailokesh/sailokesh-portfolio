@@ -73,7 +73,7 @@ const Publication = () => {
   return (
     <Container id="blog">
       <MainWrapper>
-        <H1>Blog</H1>
+        <H1>Blogs</H1>
         <BlogGrid>
         {blogs.map((blog) => (
           <QuoteContainer key={blog.url}>
