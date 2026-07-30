@@ -41,8 +41,9 @@ export const PortfolioImage = styled.div`
   overflow: hidden;
   img {
     width: 100%;
-    height: 200px;
+    height: 170px;
     display: block;
+    object-fit: cover;
   }
 `;
 

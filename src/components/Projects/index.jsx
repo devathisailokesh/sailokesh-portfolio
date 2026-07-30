@@ -1,7 +1,7 @@
 import React from "react";
-import FraudDetection from "../../assets/images/fraud-detection.png";
-import AgenticAI from "../../assets/images/agentic-ai.png";
-import RAGKnowledge from "../../assets/images/rag-knowledge.png";
+import FraudDetection from "../../assets/images/fraud-detection.svg";
+import RAGKnowledge from "../../assets/images/rag-knowledge.svg";
+import MultiAgentResearch from "../../assets/images/multi-agent-research.svg";
 import {
   PortfolioSection,
   PortfolioContainer,
@@ -18,21 +18,25 @@ const data = [
     id: 1,
     image: RAGKnowledge,
     project_name: "RAG-Driven Knowledge Retrieval System",
-    title: "LangChain, OpenAI, FAISS, Vector Database — Production-grade RAG pipeline with multi-source ingestion, intelligent summarization, and delivery into ADLS and Snowflake.",
-    github: "https://github.com/devathisailokesh/RAG-Driven-Knowledge-Retrieval-with-Generative-AI",
+    title:
+      "LangChain, OpenAI, FAISS, Vector Database - Production-grade RAG pipeline with multi-source ingestion, intelligent summarization, and delivery into ADLS and Snowflake.",
+    github:
+      "https://github.com/devathisailokesh/RAG-Driven-Knowledge-Retrieval-with-Generative-AI",
   },
   {
     id: 2,
-    image: AgenticAI,
-    project_name: "Agentic AI Email Automation Pipeline",
-    title: "LangGraph, LangChain, LLMs, Streamlit, SMTP, Python — End-to-end multi-agent pipeline that processes Excel inputs and sends personalized emails via LLM workflows.",
-    github: "https://github.com/devathisailokesh/Agentic-AI-Email-Project/tree/dev",
+    image: MultiAgentResearch,
+    project_name: "Multi-Agent Research Assistant",
+    title:
+      "Python, Groq, retrieval APIs, FastAPI, Streamlit, SQLite - Multi-agent research workflow with planner-researcher-summarizer orchestration, source-backed responses, and session memory.",
+    github: "https://github.com/devathisailokesh/mediq-agent",
   },
   {
     id: 3,
     image: FraudDetection,
     project_name: "ML-Powered Credit Card Fraud Detection",
-    title: "Gradient Boosting, RandomizedSearchCV — 94.42% accuracy, 95.79% precision, 99.15% ROC-AUC with class imbalance handling and optimized hyperparameter tuning.",
+    title:
+      "Gradient Boosting, RandomizedSearchCV - 94.42% accuracy, 95.79% precision, 99.15% ROC-AUC with class imbalance handling and optimized hyperparameter tuning.",
     github: "https://github.com/devathisailokesh/credit-card-fraud-detection",
   },
 ];

@@ -1,0 +1,58 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" rx="36" fill="#120B12"/>
+  <rect x="44" y="44" width="1112" height="712" rx="28" fill="url(#bg)"/>
+  <circle cx="1004" cy="162" r="154" fill="url(#glowA)" opacity="0.36"/>
+  <circle cx="212" cy="650" r="190" fill="url(#glowB)" opacity="0.28"/>
+  <rect x="144" y="252" width="250" height="146" rx="22" fill="#160D12" stroke="#FB7185" stroke-width="2"/>
+  <rect x="474" y="252" width="250" height="146" rx="22" fill="#171106" stroke="#FBBF24" stroke-width="2"/>
+  <rect x="804" y="252" width="250" height="146" rx="22" fill="#08150F" stroke="#22C55E" stroke-width="2"/>
+  <rect x="128" y="450" width="214" height="132" rx="22" fill="#160D12" stroke="#FB7185" stroke-width="2"/>
+  <rect x="378" y="450" width="214" height="132" rx="22" fill="#171106" stroke="#FBBF24" stroke-width="2"/>
+  <rect x="628" y="450" width="214" height="132" rx="22" fill="#100C18" stroke="#A78BFA" stroke-width="2"/>
+  <rect x="878" y="450" width="214" height="132" rx="22" fill="#08150F" stroke="#22C55E" stroke-width="2"/>
+  <path d="M342 516H378" stroke="#8B9BB5" stroke-width="6" stroke-linecap="round"/>
+  <path d="M592 516H628" stroke="#8B9BB5" stroke-width="6" stroke-linecap="round"/>
+  <path d="M842 516H878" stroke="#8B9BB5" stroke-width="6" stroke-linecap="round"/>
+  <text x="600" y="146" text-anchor="middle" fill="#F7C06D" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="800">Fraud Detection System</text>
+  <text x="600" y="196" text-anchor="middle" fill="#9A8FA1" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">Model scoring pipeline with engineered features and high-confidence risk detection</text>
+  <text x="269" y="318" text-anchor="middle" fill="#FB7185" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="800">94.42%</text>
+  <text x="269" y="360" text-anchor="middle" fill="#BCAFB7" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">Accuracy</text>
+  <text x="599" y="318" text-anchor="middle" fill="#FBBF24" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="800">95.79%</text>
+  <text x="599" y="360" text-anchor="middle" fill="#BCAFB7" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">Precision</text>
+  <text x="929" y="318" text-anchor="middle" fill="#22C55E" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="800">99.15%</text>
+  <text x="929" y="360" text-anchor="middle" fill="#BCAFB7" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">ROC-AUC</text>
+  <rect x="198" y="480" width="74" height="74" rx="20" fill="#35101B"/>
+  <path d="M214 534H256" stroke="#FB7185" stroke-width="8" stroke-linecap="round"/>
+  <path d="M222 516V534" stroke="#FB7185" stroke-width="8" stroke-linecap="round"/>
+  <path d="M236 506V534" stroke="#FB7185" stroke-width="8" stroke-linecap="round"/>
+  <path d="M250 494V534" stroke="#FB7185" stroke-width="8" stroke-linecap="round"/>
+  <rect x="448" y="480" width="74" height="74" rx="20" fill="#3A2A07"/>
+  <path d="M464 532L482 514L496 526L516 504" stroke="#FBBF24" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="698" y="480" width="74" height="74" rx="20" fill="#23143D"/>
+  <path d="M712 540L758 494" stroke="#A78BFA" stroke-width="8" stroke-linecap="round"/>
+  <path d="M724 494H758V528" stroke="#A78BFA" stroke-width="8" stroke-linecap="round"/>
+  <rect x="948" y="480" width="74" height="74" rx="20" fill="#0D2B20"/>
+  <path d="M986 498L1010 510V530C1010 542 999 551 986 556C973 551 962 542 962 530V510L986 498Z" stroke="#22C55E" stroke-width="6" fill="none"/>
+  <text x="235" y="620" text-anchor="middle" fill="#FB7185" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Raw Data</text>
+  <text x="235" y="652" text-anchor="middle" fill="#BCAFB7" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">Input signals</text>
+  <text x="485" y="620" text-anchor="middle" fill="#FBBF24" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Feature Eng.</text>
+  <text x="485" y="652" text-anchor="middle" fill="#BCAFB7" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">Pattern extraction</text>
+  <text x="735" y="620" text-anchor="middle" fill="#A78BFA" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Model</text>
+  <text x="735" y="652" text-anchor="middle" fill="#BCAFB7" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">Risk scoring</text>
+  <text x="985" y="620" text-anchor="middle" fill="#22C55E" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Alert</text>
+  <text x="985" y="652" text-anchor="middle" fill="#BCAFB7" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">Fraud flagged</text>
+  <defs>
+    <linearGradient id="bg" x1="44" y1="44" x2="1156" y2="756" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#180B12"/>
+      <stop offset="1" stop-color="#24120D"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1004 162) rotate(90) scale(154)">
+      <stop stop-color="#F97316"/>
+      <stop offset="1" stop-color="#F97316" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(212 650) rotate(90) scale(190)">
+      <stop stop-color="#FB7185"/>
+      <stop offset="1" stop-color="#FB7185" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
